@@ -1,0 +1,139 @@
+body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.bodycontent{
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/a73c4363-1dcd-4719-b3b1-3725418fd91d/fe1147dd-78be-44aa-a0e5-2d2994305a13/IN-en-20231016-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    max-height: 100%;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    background-repeat: no-repeat;
+    
+}
+.navbar{
+    margin: 0px 100px 0px 100px;
+    padding-top: 40px;
+}
+.spacingbutt{
+  float: inline-end;
+}
+.home-content{
+    height: 600px;
+    text-align: center;
+}
+.home-content h1{
+    font-size: 3.125rem;
+    font-weight: bolder;
+
+}
+.home-content p{
+    font-size: 20px;
+    margin-top: 50px;
+}
+.netflixtv{
+    width: 100%;
+    height: 100%;
+
+}
+.netflix3rd{
+    width: 100%;
+    height: 100%;
+
+}
+.netfilx4th{
+    width: 100%;
+    height: 100%;
+}
+.netflix5th{
+    width: 100%;
+    height: 100%;
+}
+.netflixtv:hover{
+    cursor: pointer;
+
+}
+.accordion {
+    background-color: #666464;
+    color: #f8f4f4;
+    cursor: pointer;
+    padding: 25px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin-top: 10px;
+    justify-content: center;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: rgb(168, 162, 162);
+    overflow: hidden;
+    width: 100%;
+    color: white;
+  }
+  .sizing{
+    width: 100%;
+    justify-content: center;
+  }
+  .mail-box{
+    text-align: center;
+    margin: 30px;
+  }
+  li{
+    padding-top: 2rem;
+  }
+
+  @media (max-width: 600px){
+    .imgl{
+      margin-left: -6rem;
+       height:30px;
+       
+
+    }
+    .l-sbutton{
+      margin-right: -7rem;
+      width: 224px;
+    }
+    .home-content h1{
+      font-size: 1.5rem;
+      font-weight: bolder;
+      text-align: center;
+      margin-top: -5rem;  
+    }
+    .home-content h3{
+      font-size: small;
+    }
+    .home-content p{
+      font-size: small;
+      text-align: center;
+    }
+    .home-content{
+      height: 500px;
+      margin-top: 40px;
+      margin-bottom: -72px;
+    }
+    .getbutt{
+      margin-top: 1rem;
+      
+    }
+    .lastpage{
+      margin-left: -34px;
+      
+    }
+
+  }
+  .solid{
+    background-color: rgb(35, 39, 44);
+    margin: 0px;
+    padding: 4px 0px;
+    opacity: 7;
+  }
